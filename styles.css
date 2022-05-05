@@ -1,5 +1,10 @@
 body{
-    background-color: #bad4b9;
+    background: linear-gradient(45deg,#222831,#393E46);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
 
@@ -12,17 +17,17 @@ body{
     border-radius: 150px;
     width: 150px;
     height: 150px;
-    box-shadow: 3px 7px 5px #808080;
+    box-shadow: 3px 7px 5px #393E46;
 }
 
 
 .ig{
  text-align: center;
  margin-top: 20px;
- border: 1px solid #649363;
+ border: 1px solid #0000;
  border-width: 3px;
  padding: 20px;
- background: #8ca48c;
+ background: #00ADB5;
 
  width: 290px;
  display: block;
@@ -32,14 +37,14 @@ body{
  border-radius: 40px;
 
  font-size: 18px;
-
+ color: #EEEEEE;
 }
 
 .twitch{
     text-align: center;
     margin-top: 20px;
-    border: 1px solid #649363;
-    background: #8ca48c;
+    border: 1px solid #0000;
+    background: #00ADB5;
     border-width: 3px;
     padding: 20px;
   
@@ -51,15 +56,17 @@ body{
     border-radius: 40px;
   
     font-size: 18px;
+    color: #EEEEEE;
 }
 
 .spotify{
     text-align: center;
     margin-top: 20px;
-    border: 1px solid #649363;
+    border: 1px solid #0000;
     border-width: 3px;
     padding: 20px;
-    background: #8ca48c;
+    background: #00ADB5;
+    
   
     width: 290px;
     display: block;
@@ -69,6 +76,7 @@ body{
     border-radius: 40px;
   
     font-size: 18px;
+    color: #EEEEEE;
 
 }
 
@@ -76,3 +84,9 @@ body{
     font-family: 'Roboto', sans-serif;
     
 }
+
+h2{
+    color: #EEEEEE;
+
+}
+
